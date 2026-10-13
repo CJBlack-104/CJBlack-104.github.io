@@ -187,6 +187,16 @@ h1 {
   text-transform: uppercase;
 }
 .hero-subtext strong { color: var(--gold-bright); font-weight: 500; }
+.hero-subtext2 {
+  max-width: 680px;
+  margin: 1.9rem 0 0;
+  color: var(--silver-muted);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  line-height: 1.55;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.hero-subtext2 strong { color: var(--gold-bright); font-weight: 500; }
 .scroll-cue {
   position: absolute;
   bottom: 2rem;
