@@ -155,7 +155,6 @@ button, input, textarea { font: inherit; }
   width: min(480px, 72vw);
   margin-bottom: clamp(3rem, 9vh, 6rem);
   mix-blend-mode: screen;
-  filter: drop-shadow(0 16px 35px rgba(0,0,0,.7));
 }
 .eyebrow {
   margin: 0 0 1.1rem;
