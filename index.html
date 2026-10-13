@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Signature Zero — Power on the Edge. Coming soon.">
+  <meta name="theme-color" content="#050607">
+  <title>Signature Zero | Coming Soon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" aria-label="Signature Zero home">
+      <img class="brand-mark" src="signature-zero-logo.png" alt="Signature Zero">
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <img class="product-tease" src="product-tease.png" alt="" aria-hidden="true">
+    <div class="scan-line" aria-hidden="true"></div>
+
+    <section class="hero-content reveal" aria-labelledby="hero-title">
+      <img class="hero-logo" src="signature-zero-logo.png" alt="Signature Zero — Power on the Edge">
+      <p class="eyebrow">Power on the edge</p>
+      <h1 id="hero-title">Coming Soon</h1>
+      <p class="hero-subtext">The future is electric, <strong>hybrid is how we get there.</strong></p>
+    </section>
+
+    <div class="scroll-cue" aria-hidden="true">A new class of mobile power</div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year">2026</span> Signature Zero</span>
+    <span>Built for where the grid ends</span>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

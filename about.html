@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Signature Zero and its mission to advance resilient hybrid-electric power.">
+  <meta name="theme-color" content="#050607">
+  <title>About | Signature Zero</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" aria-label="Signature Zero home"><img class="brand-mark" src="signature-zero-logo.png" alt="Signature Zero"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a class="active" href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <div class="page-inner">
+      <section class="reveal">
+        <p class="page-kicker">Our mission</p>
+        <h1 class="page-title">Power without compromise.</h1>
+        <p class="lead">Signature Zero is developing rugged, intelligent power systems for the places where reliability matters most—and where conventional infrastructure cannot follow.</p>
+      </section>
+
+      <section class="about-grid reveal">
+        <div class="about-copy">
+          <p>The energy transition will not happen all at once. The most practical path forward combines the strengths of electrification with the endurance, flexibility, and resilience required in the real world.</p>
+          <p>We are building mobile hybrid-electric systems designed around that reality: efficient when conditions allow, dependable when conditions demand, and capable wherever the mission leads.</p>
+          <p>More details will be revealed soon.</p>
+        </div>
+        <aside class="stat-panel" aria-label="Signature Zero principles">
+          <h2>Designed around</h2>
+          <div class="stat"><strong>Resilience</strong><span>Power that remains available when infrastructure does not.</span></div>
+          <div class="stat"><strong>Efficiency</strong><span>Intelligent use of every available energy source.</span></div>
+          <div class="stat"><strong>Mobility</strong><span>Rugged systems engineered to move and deploy.</span></div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><span>© <span id="year">2026</span> Signature Zero</span><span>Power on the edge</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

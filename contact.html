@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Signature Zero.">
+  <meta name="theme-color" content="#050607">
+  <title>Contact | Signature Zero</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" aria-label="Signature Zero home"><img class="brand-mark" src="signature-zero-logo.png" alt="Signature Zero"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <div class="page-inner">
+      <section class="reveal">
+        <p class="page-kicker">Start a conversation</p>
+        <h1 class="page-title">Contact</h1>
+        <p class="lead">Interested in future products, partnerships, investment, or early deployment opportunities? Reach out.</p>
+      </section>
+
+      <section class="contact-grid reveal">
+        <div class="contact-info">
+          <h2>Direct inquiry</h2>
+          <p>Use the form or contact us directly. The form opens your default email application so no information is stored by this website.</p>
+          <a class="contact-link" href="mailto:inquiries@signaturezero.com">inquiries@signaturezero.com</a>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+          <button class="submit-button" type="submit">Compose email</button>
+          <p class="form-note">This static website does not transmit or store form entries. Selecting “Compose email” opens a prepared message in your email application.</p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><span>© <span id="year">2026</span> Signature Zero</span><span>Power on the edge</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
